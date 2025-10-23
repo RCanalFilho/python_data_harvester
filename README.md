@@ -1,4 +1,4 @@
-gee-pipeline
+Download .py files and follow the installation steps to use locally
 
 
 gee_pipeline/
