@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: gee-pipeline
+Version: 0.1.0
+Summary: Modular GEE data collection pipeline with Jupyter-friendly APIs, logging, and reports.
+Author: USyd PAHGISL
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: earthengine-api>=0.1.400
+Requires-Dist: geemap>=0.31.0
+Requires-Dist: folium>=0.15.0
+Requires-Dist: geopandas>=0.14.0
+Requires-Dist: shapely>=2.0.0
+Requires-Dist: pyproj>=3.6.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: fiona>=1.9.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: ipython>=8.0.0
+Requires-Dist: ipywidgets>=8.0.0
+Requires-Dist: tqdm>=4.66.0
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Provides-Extra: sof
+Requires-Dist: rasterio>=1.3; extra == "sof"
+Requires-Dist: geopandas>=0.13; extra == "sof"
+Requires-Dist: shapely>=2.0; extra == "sof"
+Requires-Dist: pyproj>=3.4; extra == "sof"
+Provides-Extra: silo
