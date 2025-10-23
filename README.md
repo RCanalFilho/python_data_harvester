@@ -3,13 +3,13 @@ gee-pipeline
 
 gee_pipeline/
 
-init.py			export Config, build_user_panel, run_pipeline_quick, RunReport
+    init.py			export Config, build_user_panel, run_pipeline_quick, RunReport
 
-collections.py 		Sentinel-2 SR harmonized, simple cloud mask + bands
+    collections.py 		Sentinel-2 SR harmonized, simple cloud mask + bands
 
-config.py		Config object (validate and standardize paths)
+    config.py		Config object (validate and standardize paths)
 
-cube.py			rename bands with dates and build a multi-band cube
+    cube.py			rename bands with dates and build a multi-band cube
 
 export.py		export summary table (Parquet/CSV) and pixel samples (Parquet)
 
