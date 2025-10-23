@@ -4,7 +4,6 @@ gee-pipeline
 gee_pipeline/
 
     init.py			export Config, build_user_panel, run_pipeline_quick, RunReport
-
     collections.py 		Sentinel-2 SR harmonized, simple cloud mask + bands
 
     config.py		Config object (validate and standardize paths)
